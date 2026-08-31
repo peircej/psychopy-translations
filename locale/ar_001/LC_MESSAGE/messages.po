@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.0\n"
-"POT-Creation-Date: 2026-04-02 16:24+0000\n"
+"POT-Creation-Date: 2026-04-08 04:28+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jeremy R. Gray <jrgray@gmail.com>\n"
 "Language-Team: \n"
@@ -405,7 +405,6 @@ msgstr "الروتين الجديد"
 msgid "Find in experiment..."
 msgstr "ابحث في التجربة..."
 
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:20
 #: psychopy-studio/src/lib/dialogs/colorPicker/HsvColor.svelte:42
 #, fuzzy
 msgid "Value"
@@ -484,9 +483,7 @@ msgstr "مجلد محلي:"
 msgid "You are not logged in to Pavlovia. Please log in to sync project."
 msgstr "لم تقم بتسجيل الدخول إلى بافلوفيا. يرجى تسجيل الدخول لمزامنة المشروع."
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:18
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:11
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:11
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:13
 #: psychopy/psychopy/experiment/components/_base.py:77
 #: psychopy/psychopy/experiment/loops.py:203
 #: psychopy/psychopy/experiment/loops.py:604
@@ -524,7 +521,7 @@ msgstr "حصرية منخفضة الكمون"
 msgid "File"
 msgstr "ملف"
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:17
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:12
 #, fuzzy
 msgid "Path"
 msgstr "المسار"
@@ -990,6 +987,7 @@ msgstr "فرض نهاية الروتين"
 msgid "Button text"
 msgstr "نص الزر"
 
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:192
 #: psychopy/psychopy/experiment/components/button/__init__.py:104
 #: psychopy/psychopy/experiment/components/form/__init__.py:96
 #: psychopy/psychopy/experiment/components/slider/__init__.py:176
@@ -1728,6 +1726,7 @@ msgstr ""
 "وضع Blendmode OpenGL Blendmode: يعطي avg شفافية تقليدية، والإضافة مهمة لدمج "
 "الشبكات)]"
 
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:224
 #: psychopy/psychopy/experiment/components/image/__init__.py:52
 #: psychopy/psychopy/experiment/components/panorama/__init__.py:72
 #, fuzzy
@@ -7264,269 +7263,259 @@ msgstr ""
 msgid "How many buttons this button box has."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:19
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:14
 msgid "BIDS Event Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:20
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:15
 msgid "Trial Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:21
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:16
 msgid "Link Component"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:22
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:17
 msgid "Linked Attbributes"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:23
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:15
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:18
 msgid "Onset"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:24
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:16
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:19
 msgid "Duration"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:25
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:20
 msgid "Event Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:26
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:21
 msgid "Sample Point"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:27
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:22
 msgid "Response Time"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:28
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:23
 msgid "Event Value"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:29
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:24
 msgid "HED Tags (Sidecar Preferred)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:30
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:25
 msgid "Stimulus File"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:31
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:26
 msgid "Database ID"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:32
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:27
 msgid "Database Reference"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:33
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:28
 msgid "Custom Columns"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:34
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:16
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:26
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:29
 msgid "Add to log file"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:47
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:43
 msgid "BIDS Event: Records experiment events in BIDS-valid format"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:75
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:70
 msgid ""
 "Choose whether this is a Task-related event (requires onset/duration) or a "
 "Behavioral event (timing optional)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:89
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:84
 msgid ""
 "Categorical label identifying the experimental condition or trial type. Used"
 " to group similar events for analysis."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:104
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:99
 msgid ""
 "Select a PsychoPy component to automatically extract timing and property "
 "information"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:118
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:113
 msgid ""
 "Select which attributes to automatically extract from the linked component"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:147
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:142
 msgid ""
 "When enabled, manually entered values will take precedence over "
 "automatically extracted values"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:155
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:150
 msgid "Manually set values"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:160
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:155
 msgid ""
 "Time in seconds when the event started, measured from the beginning of the "
 "recording"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:173
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:168
 msgid ""
 "Length of the event in seconds. Must be zero or positive. Use 'n/a' if "
 "duration is unknown."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:186
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:181
 msgid ""
 "Time in seconds between stimulus presentation and participant's response"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:199
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:194
 msgid ""
 "Category of stimulus or response (e.g., TextStim, ImageStim, KeyResponse)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:227
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:222
 msgid ""
 "Path to stimulus file relative to experiment root; recorded in events.tsv "
 "and necessary tocopied to BIDS/stimuli folder"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:238
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:174
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:233
 msgid "References within a database"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:249
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:187
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:244
 msgid "References to a database"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:263
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:205
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:258
 msgid ""
 "Onset of the event according to the sampling scheme of the recorded modality"
 " (that is, referring to the raw data file that the events.tsv file "
 "accompanies)."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:277
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:220
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:272
 msgid ""
 "Marker value associated with the event (for example, the value of a TTL "
 "trigger that was recorded at the onset of the event)."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:292
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:287
 #, python-brace-format
 msgid ""
 "Define additional columns for the events.tsv file as a Python dictionary: "
 "{'column_name': 'value'}"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:306
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:301
 msgid ""
 "It is strongly advised to use the .json sidecar in the BidsExport instead. "
 "Using HED tags here will disable automated HED tag generation via the "
 "sidecar."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:322
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:317
 msgid ""
 "Include this event's data in the experiment's log file. Note: per-event "
 "logging can add overhead and may affect timing in performance-critical runs."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_event/__init__.py:331
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:81
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:151
+#: psychopy-bids/psychopy_bids/components/bids_event/__init__.py:326
 msgid "Add event to log"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:18
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:13
 msgid "Add runs to event file name"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:19
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:156
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:14
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:152
 msgid "Dataset Description"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:20
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:15
 msgid "Session"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:21
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:16
 msgid "BIDS Log Level"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:35
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:31
 msgid ""
 "BIDS Export: Creates a standardized BIDS directory structure and generates "
 "required metadata files according to BIDS specifications"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:49
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:45
 msgid "Name of the Routine."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:50
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:46
 msgid "Routine Name"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:53
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:49
 msgid ""
 "Root name of the dataset (parent folder name) if this task is part of a "
 "larger experiment"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:64
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:60
 msgid "Dataset Name"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:68
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:64
 msgid "License of the dataset"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:88
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:84
 msgid "Dataset License"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:91
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:87
 msgid "BIDS defined data type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:109
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:105
 msgid "Data Type"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:113
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:109
 msgid ""
 "Optional label to distinguish between different acquisition parameters or "
 "conditions across multiple runs of the same task"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:124
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:120
 msgid "Acquisition Label"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:128
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:124
 msgid "Override the session label. Leave empty to use expInfo['session']."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:143
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:139
 msgid ""
 "Path to a dataset_description.json. If not provided, a default template will"
 " be used. Specifying a file will overwrite any existing "
 "dataset_description.json"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:161
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:157
 msgid ""
 "Path to the events/beh sidecar file. Accepts a complete .json sidecar or a "
 "4-column spreadsheet in CSV, TSV, or XLSX format (only for HED tags). "
@@ -7535,147 +7524,66 @@ msgid ""
 "execution."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:175
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:171
 msgid "Events/Beh Sidecar"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:179
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:175
 msgid ""
 "Generate preliminary HED metadata from the events file; may not fully comply"
 " with BIDS standards."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:187
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:183
 msgid "Generate HED Metadata (experimental)"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:191
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:187
 msgid ""
 "Copy all stimulus files referenced in the events file to the BIDS dataset's "
 "/stimuli directory"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:199
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:195
 msgid "Include Stimuli"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:203
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:199
 msgid ""
 "Include source code, condition files, and a directory structure file in the "
 "BIDS dataset's /code directory"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:212
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:208
 msgid "Include Source Code, Structure & Condition Files"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:216
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:212
 msgid ""
 "Generate and include requirements.txt with Python and package versions in "
 "the BIDS dataset"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:224
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:220
 msgid "Include Dependencies"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:228
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:224
 msgid ""
 "Controls the run label in event filenames. True = auto-increment (run-1, "
 "run-2, …); False = omit run entity; string (e.g. '4a') = use as a fixed run "
 "label (run-4a)."
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:239
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:235
 msgid "Run Label"
 msgstr ""
 
-#: psychopy-bids/psychopy_bids/bids_settings/__init__.py:243
+#: psychopy-bids/psychopy_bids/routines/bids_export/__init__.py:239
 msgid ""
 "Verbosity level for psychopy-bids messages during runtime. DEBUG shows "
 "detailed internals, INFO shows normal progress, WARN/ERROR show only "
 "important issues."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:15
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:25
-msgid "Custom columns"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:59
-msgid "Add columns as a dictionary"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:74
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:144
-msgid "Should the event be saved in the log file too?"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:17
-msgid "Trial type"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:18
-msgid "Sample"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:19
-msgid "Response time"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:21
-msgid "HED"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:22
-msgid "Stimulus file"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:23
-msgid "Identifier"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:24
-msgid "Database"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:85
-msgid ""
-"Onset (in seconds) of the event, measured from the beginning of the "
-"acquisition of the first data point stored in the corresponding task data "
-"file."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:100
-msgid ""
-"Duration of the event (measured from onset) in seconds. Must always be "
-"either zero or positive (or n/a if unavailable)."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:115
-msgid ""
-"Primary categorisation of each trial to identify them as instances of the "
-"experimental conditions."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:130
-msgid "Response time measured in seconds."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:158
-msgid ""
-"Indicates the location of the stimulus file. The values represent a path "
-"relative to the /stimuli directory. Paths that include the stimuli/ prefix "
-"will also be correctly interpreted by removing the redundant prefix, "
-"ensuring proper placement within the /stimuli directory."
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:235
-msgid "Hierarchical Event Descriptor (HED) Tag"
-msgstr ""
-
-#: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:248
-msgid "Add additional columns as a dictionary"
 msgstr ""
 
 #: psychopy-cedrus/psychopy_cedrus/components/lumina.py:14
@@ -9463,6 +9371,178 @@ msgstr ""
 #: psychopy-visionscience/psychopy_visionscience/components/radial/__init__.py:120
 msgid "Visible Wedge"
 msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:47
+msgid ""
+"BIDS Onset Timer: synchronise with hardware and set event time reference."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:70
+msgid "Trigger Mode"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:79
+msgid "Key to wait for (MRI scanners typically send '5')."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:80
+msgid "Trigger Key"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:92
+msgid ""
+"Parallel port address (e.g. 0x0378). Change via Preferences > Hardware."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:94
+msgid "Port Address"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:103
+msgid "Pin to monitor for incoming trigger (10 = ACK, standard for MRI)."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:105
+msgid "Pin Number"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:113
+msgid "Integer value to send at trigger onset."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:114
+msgid "Start Data"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:122
+msgid "Integer value to send after pulse to reset the port."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:123
+msgid "Stop Data"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:131
+msgid "Pulse duration in seconds."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:132
+msgid "Pulse Duration (s)"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:143
+msgid "Bytes value to wait for (e.g. b'1'). Use None to accept any byte."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:145
+msgid "Trigger Byte"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:153
+msgid "Bytes value to send (e.g. b'\\x01')."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:154
+msgid "Send Byte"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:164
+msgid "Max seconds to wait for trigger. None = wait indefinitely."
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:166
+msgid "Timeout (s)"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:176
+msgid "Show on Screen"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:184
+msgid "Message"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:200
+msgid "Letter Height"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:208
+msgid "Text Color"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:216
+msgid "Text Position"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:232
+msgid "Image Size"
+msgstr ""
+
+#: psychopy-bids/psychopy_bids/routines/bids_onset/__init__.py:240
+msgid "Image Position"
+msgstr ""
+
+#~ msgid "Custom columns"
+#~ msgstr ""
+
+#~ msgid "Add columns as a dictionary"
+#~ msgstr ""
+
+#~ msgid "Should the event be saved in the log file too?"
+#~ msgstr ""
+
+#~ msgid "Trial type"
+#~ msgstr ""
+
+#~ msgid "Sample"
+#~ msgstr ""
+
+#~ msgid "Response time"
+#~ msgstr ""
+
+#~ msgid "HED"
+#~ msgstr ""
+
+#~ msgid "Stimulus file"
+#~ msgstr ""
+
+#~ msgid "Identifier"
+#~ msgstr ""
+
+#~ msgid "Database"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Onset (in seconds) of the event, measured from the beginning of the "
+#~ "acquisition of the first data point stored in the corresponding task data "
+#~ "file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Duration of the event (measured from onset) in seconds. Must always be "
+#~ "either zero or positive (or n/a if unavailable)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Primary categorisation of each trial to identify them as instances of the "
+#~ "experimental conditions."
+#~ msgstr ""
+
+#~ msgid "Response time measured in seconds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Indicates the location of the stimulus file. The values represent a path "
+#~ "relative to the /stimuli directory. Paths that include the stimuli/ prefix "
+#~ "will also be correctly interpreted by removing the redundant prefix, "
+#~ "ensuring proper placement within the /stimuli directory."
+#~ msgstr ""
+
+#~ msgid "Hierarchical Event Descriptor (HED) Tag"
+#~ msgstr ""
+
+#~ msgid "Add additional columns as a dictionary"
+#~ msgstr ""
 
 #~ msgid "&View"
 #~ msgstr "عرض"
